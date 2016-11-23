@@ -1,0 +1,63 @@
+/* line 2, ../sass/style.scss */
+html body {
+  padding: 0;
+  margin: 0;
+}
+/* line 5, ../sass/style.scss */
+html body h2 {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+/* line 12, ../sass/style.scss */
+html body #wrapper > div {
+  padding: 2rem;
+}
+
+/* line 18, ../sass/style.scss */
+.blue {
+  background-color: #b0ffff;
+}
+
+/* line 21, ../sass/style.scss */
+.pink {
+  background-color: #ffd2ed;
+}
+
+/* line 24, ../sass/style.scss */
+.green {
+  background-color: #e8ffd3;
+}
+
+/* line 27, ../sass/style.scss */
+.yellow {
+  background-color: #f7ffb9;
+}
+
+/* line 33, ../sass/style.scss */
+#scroll_menu {
+  position: fixed;
+  right: 50px;
+  top: 50%;
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  list-style-type: none;
+}
+/* line 39, ../sass/style.scss */
+#scroll_menu li {
+  border: 1px solid black;
+  height: 20px;
+  width: 20px;
+  margin-bottom: 10px;
+}
+/* line 44, ../sass/style.scss */
+#scroll_menu li:last-child {
+  margin-bottom: 0px;
+}
+/* line 47, ../sass/style.scss */
+#scroll_menu li.active {
+  background: black;
+}

@@ -1,0 +1,51 @@
+html{
+	body{
+		padding: 0;
+		margin: 0;
+		h2{
+			padding: 0;
+			margin: 0;
+			font-family: sans-serif;
+			font-weight: 100;
+		}
+		#wrapper{
+			> div{
+				padding: 2rem;
+			}
+		}
+	}
+}
+.blue{
+	background-color: #b0ffff;
+}
+.pink{
+	background-color: #ffd2ed;
+}
+.green{
+	background-color: #e8ffd3;
+}
+.yellow{
+	background-color: #f7ffb9;
+}
+
+
+@import "compass/css3/transform";
+#scroll_menu{
+	position: fixed;
+	right: 50px;
+	top:50%;
+	@include transform(translateY(-50%));
+	list-style-type: none;
+	li{
+		border: 1px solid black;
+		height: 20px;
+		width: 20px;
+		margin-bottom: 10px;
+		&:last-child{
+			margin-bottom: 0px;
+		}
+		&.active{
+			background: black;
+		}
+	}
+}
